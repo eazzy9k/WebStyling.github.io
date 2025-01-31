@@ -1,0 +1,165 @@
+*{
+    background-color: black;
+    color: white;
+    
+}
+
+.header{
+    color: white;
+    text-align: center;
+    
+}
+
+.firstsection{
+    border: 3px solid white;
+    padding: 50px;
+
+}
+
+.secondsection{
+    border: 3px solid white;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.thirdsection{
+    border: 3px solid white;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.body{
+    padding: 150px;
+}
+.colorbox1{
+    background-color: red;
+    color: black;
+    padding: 30px;
+    margin: 20px;
+    height: 900px;
+    width: 900px;
+}
+
+.colorbox2{
+    background-color: blue;
+    color: black;
+    padding: 30px;
+    margin: 20px;
+    height: 900px;
+    width: 900px;
+}
+
+.colorbox3{
+    background-color: green;
+    color: black;
+    padding: 30px;
+    margin: 20px;
+    height: 900px;
+    width: 900px;
+}
+
+.colorbox4{
+    background-color: yellow;
+    color: black;
+    padding: 30px;
+    margin: 20px;
+    height: 900px;
+    width: 900px;
+}
+
+.colorbox1, .colorbox2, .colorbox3, .colorbox4{
+    padding-top: .05px;
+    text-align: center;
+
+}
+
+.font1{
+    font-family: arial;
+}
+
+.font2{
+    font-family: "Times New Roman";
+}
+
+.font1, .font2{
+    line-height: -8;
+}
+
+.font3{
+    text-decoration: underline;
+}
+
+.font4{
+    font-size: 80;
+}
+
+.font5:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+
+.font5:active{
+    color: yellow;
+}
+.button1{
+    background-color: blue;
+}
+.button2{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+}
+
+.button3{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+}
+.button3:hover{
+    background-color: blue;
+}
+
+/* W/ Help of AI */
+.skeumorph {
+    border: 3px solid white;
+    padding: 20px 40px;
+    margin-top: 50px;
+    background: linear-gradient(to bottom, #222, #000);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7), 
+                inset -3px -3px 5px rgba(255, 255, 255, 0.2),
+                inset 3px 3px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    user-select: none;
+}
+
+.skeumorph:hover {
+    background: linear-gradient(to bottom, #444, #111);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6), 
+                inset -2px -2px 4px rgba(255, 255, 255, 0.3),
+                inset 2px 2px 4px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+}
+
+.skeumorph:active {
+    background: linear-gradient(to bottom, #111, #000);
+    box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.8), 
+                inset -2px -2px 4px rgba(255, 255, 255, 0.2);
+    transform: translateY(2px);
+    color: #bbb;
+}
